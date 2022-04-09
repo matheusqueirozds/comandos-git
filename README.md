@@ -21,3 +21,7 @@
 | git branch                       | Lista todas as branches no seu repositório |
 | git checkout <nome-da-branch>    | Move você para a branch escolhida          |
 | git checkout -b <nome-da-branch> | Cria e move você para a nova branch        |
+
+## Autores
+
+- [@ster](https://github.com/sterx17)
