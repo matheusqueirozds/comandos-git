@@ -24,15 +24,6 @@
 
 ---
 
-# Contribuindo
-Contribuições são sempre bem-vindas!
-
-Clique [AQUI](contribuindo.md) para saber como começar.
-
-Por favor, siga o código de conduta desse projeto.
-
-<br>
-
 ## Colaboradores
 
 <table>
@@ -55,3 +46,10 @@ Por favor, siga o código de conduta desse projeto.
     </td>
   </tr>
 </table>
+
+---
+
+## Contribua com mais informações
+Contribuições são sempre bem-vindas!
+
+Clique [AQUI](contribuindo.md) para saber como começar.
