@@ -12,7 +12,7 @@
 | `git log` | Apresenta todo o histórico de commits usando o formato padrão. |
 | `git push origin <nome-da-branch>` | Empurra a branch para o espaço remoto, juntamente com todos os commits e objetos. Também as branches no repositório remoto caso ainda não existam. |
 
----
+<br>
 
 ### Git Branches
 
@@ -21,6 +21,17 @@
 | `git branch` | Lista todas as branches no seu repositório |
 | `git checkout <nome-da-branch>` | Move você para a branch escolhida |
 | `git checkout -b <nome-da-branch>` | Cria e move você para a nova branch |
+
+---
+
+# Contribuindo
+Contribuições são sempre bem-vindas!
+
+Clique [AQUI](contribuindo.md) para saber como começar.
+
+Por favor, siga o código de conduta desse projeto.
+
+<br>
 
 ## Autores
 
@@ -31,3 +42,24 @@
 ## Colaboradores
 
 - [@matheusqueirozds](https://github.com/matheusqueirozds)
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/sterx17">
+        <img src="https://avatars.githubusercontent.com/u/71826255?v=4" width="100px;" alt="Foto da Ster no GitHub"/><br>
+        <sub>
+          <b>@sterx17</b>
+        </sub>
+      </a>
+    </td>
+     <td align="center">
+      <a href="https://github.com/matheusqueirozds">
+        <img src="https://avatars.githubusercontent.com/u/70871620?v=4" width="100px;" alt="Foto do Matheus Queiroz no GitHub"/><br>
+        <sub>
+          <b>@matheusqueirozds</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
