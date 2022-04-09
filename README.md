@@ -13,7 +13,7 @@
 | `git add <diretorio>` | Envia para a área de staging todas as mudanças no diretório em seu próximo commit. Altere `<diretorio>` por um arquivo específico para enviar somente ele ao staging. |
 | `git add .` | Envia para a área de staging todas as mudanças dentro do diretório onde o comando foi criado |
 | `git commit -m "<mensagem explicando a mudança no código>"` | Commita mudanças em staging, mas ao invés de abrir um editor de texto, permite a inclusão da mensagem dentro do campo `<mensagem explicando a mudança no código>`. Importante: não esquecer do comando `-m`. |
-| `git status` | Fornece algumas informações sobre a branch em que você estiver no momento, como seu nome, se ela está atualizada em relação à master/main e quais arquivos foram alterados. |
+| `git status` | Fornece algumas informações sobre a branch em que você estiver no momento, como seu nome, se ela está atualizada em relação à master/main e quais arquivos foram modificados. |
 | `git log` | Apresenta todo o histórico de commits usando o formato padrão. |
 
 <br>
