@@ -33,15 +33,7 @@ Por favor, siga o código de conduta desse projeto.
 
 <br>
 
-## Autores
-
-- [@sterx17](https://github.com/sterx17)
-
-<br>
-
 ## Colaboradores
-
-- [@matheusqueirozds](https://github.com/matheusqueirozds)
 
 <table>
   <tr>
