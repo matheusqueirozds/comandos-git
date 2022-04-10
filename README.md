@@ -23,8 +23,12 @@
 | `git branch -d <nome-da-branch>` | Exclui sua branch |
 | `git push origin <nome-da-branch>` | Empurra a branch para o espaço remoto, juntamente com todos os commits e objetos. Também as branches no repositório remoto caso ainda não existam. |
 
+#
 
----
+## Stack utilizada
+GitHub: Markdown
+
+#
 
 ## Autores
 
@@ -41,6 +45,8 @@
   </tr>
 </table>
 
+#
+
 ## Colaboradores
 
 <table>
@@ -56,9 +62,9 @@
   </tr>
 </table>
 
----
+#
 
-## Contribua com mais informações
+## Contribua com esse guia!
 Contribuições são sempre bem-vindas!
 
 Clique [AQUI](contribuindo.md) para saber como colaborar.
