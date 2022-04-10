@@ -26,18 +26,25 @@
 
 ---
 
-## Colaboradores
+## Autora
 
 <table>
   <tr>
-    <td align="center">
+     <td align="center">
       <a href="https://github.com/sterx17">
-        <img src="https://avatars.githubusercontent.com/u/71826255?v=4" width="100px;" alt="Foto da Ster no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/70871620?v=4" width="100px;" alt="Foto da Stephany Pietra no GitHub"/><br>
         <sub>
           <b>@sterx17</b>
         </sub>
       </a>
     </td>
+  </tr>
+</table>
+
+## Colaboradores
+
+<table>
+  <tr>
      <td align="center">
       <a href="https://github.com/matheusqueirozds">
         <img src="https://avatars.githubusercontent.com/u/70871620?v=4" width="100px;" alt="Foto do Matheus Queiroz no GitHub"/><br>
@@ -54,4 +61,4 @@
 ## Contribua com mais informações
 Contribuições são sempre bem-vindas!
 
-Clique [AQUI](contribuindo.md) para saber como começar.
+Clique [AQUI](contribuindo.md) para saber como colaborar.
