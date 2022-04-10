@@ -32,7 +32,7 @@
   <tr>
      <td align="center">
       <a href="https://github.com/sterx17">
-        <img src="https://avatars.githubusercontent.com/u/70871620?v=4" width="100px;" alt="Foto da Stephany Pietra no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/71826255?v=4" width="100px;" alt="Foto da Stephany Pietra no GitHub"/><br>
         <sub>
           <b>@sterx17</b>
         </sub>
