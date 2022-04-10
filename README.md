@@ -26,7 +26,7 @@
 
 ---
 
-## Autora
+## Autores
 
 <table>
   <tr>
