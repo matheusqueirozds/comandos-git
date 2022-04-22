@@ -38,7 +38,7 @@ Comando | Descrição
 `git branch <nome-da-branch>` |  Permite criar uma nova branch, com o nome que você escolheu
 `git checkout <nome-da-branch>` | Permite acessar uma branch que já foi criada (localmente ou remota)
 `git checkout -b <nome-da-branch>` | Cria uma nova branch e já acessa diretamente
-`git branch -d <nome-da-branch>` | Exclui sua branch 
+`git branch -D <nome-da-branch>` | Exclui sua branch 
 `git push origin <nome-da-branch>` | Empurra a branch para o espaço remoto, juntamente com todos os commits e objetos. Também as branches no repositório remoto caso ainda não existam. 
 
 <br>
