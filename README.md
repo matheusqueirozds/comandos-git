@@ -1,5 +1,11 @@
 # Principais comandos do Git
 
+## Criando um Projeto
+
+COmando | Descrição
+| - | - |
+`git init` | Cria um repositório vazio com o esqueleto de seu projeto. É o primeiro comando a ser digitado ao se criar um projeto Git.
+
 ## Clone
 
 Comando | Descrição 
