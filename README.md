@@ -35,6 +35,7 @@ Comando | Descrição
 `git add .` | Adiciona todos os arquivos da pasta onde você se encontra à Staging Area (que é local)
 `git add <nome-do-arquivo>` | Envia os arquivos modificados, removidos e criados para a Staging Area 
 `git commit -m "<mensagem explicando a mudança no código>"` | Cria uma versão do seu projeto com os arquivos que estiverem na Staging Area e descreve uma mensagem explicando as modificações realizadas. Importante: não esquecer do comando `-m` e das aspas ao redor da mensagem 
+`comme` | Adiciona os arquivos a staging area e efetua um commit
 
 <br>
 
@@ -44,10 +45,11 @@ Comando | Descrição
 | - | - |
 `git branch` | Lista todas as branches no seu repositório local. A branch padrão se chama master ou main
 `git branch <nome-da-branch>` |  Permite criar uma nova branch, com o nome que você escolheu
-`git checkout <nome-da-branch>` | Permite acessar uma branch que já foi criada (localmente ou remota)
-`git checkout -b <nome-da-branch>` | Cria uma nova branch e já acessa diretamente
+`git checkout <nome-da-branch>` ou `gc`  | Permite acessar uma branch que já foi criada (localmente ou remota)
+`git checkout -b <nome-da-branch>` ou `gcb | Cria uma nova branch e já acessa diretamente
 `git branch -D <nome-da-branch>` | Exclui sua branch 
 `git push origin <nome-da-branch>` | Empurra a branch para o espaço remoto, juntamente com todos os commits e objetos. Também as branches no repositório remoto caso ainda não existam. 
+`pushme` |  Efetua o commit e faz push para o repositório
 
 <br>
 
@@ -67,23 +69,6 @@ GitHub: Markdown
 #
 
 ## Autores
-
-<table>
-  <tr>
-     <td align="center">
-      <a href="https://github.com/sterx17">
-        <img src="https://avatars.githubusercontent.com/u/71826255?v=4" width="100px;" alt="Foto da Stephany Pietra no GitHub"/><br>
-        <sub>
-          <b>@sterx17</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-#
-
-## Colaboradores
 
 <table>
   <tr>
