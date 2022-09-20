@@ -1,5 +1,7 @@
 # Principais comandos do Git
 
+🚨 ATENÇÃO: Para utilizar atalhos mais curtos, como `comme`, `gcb`, etc., siga as orientações [desse post](https://www.instagram.com/p/CbinPZCAtdr/).
+
 ## Criando um Projeto
 
 Comando | Descrição
