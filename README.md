@@ -46,7 +46,7 @@ Comando | Descrição
 `git branch` | Lista todas as branches no seu repositório local. A branch padrão se chama master ou main
 `git branch <nome-da-branch>` |  Permite criar uma nova branch, com o nome que você escolheu
 `git checkout <nome-da-branch>` ou `gc`  | Permite acessar uma branch que já foi criada (localmente ou remota)
-`git checkout -b <nome-da-branch>` ou `gcb | Cria uma nova branch e já acessa diretamente
+`git checkout -b <nome-da-branch>` ou `gcb` | Cria uma nova branch e já acessa diretamente
 `git branch -D <nome-da-branch>` | Exclui sua branch 
 `git push origin <nome-da-branch>` | Empurra a branch para o espaço remoto, juntamente com todos os commits e objetos. Também as branches no repositório remoto caso ainda não existam. 
 `pushme` |  Efetua o commit e faz push para o repositório
@@ -58,7 +58,7 @@ Comando | Descrição
 Comando | Descrição 
 | - | - |
 `git push origin <nome-da-branch>` | Envia as suas alterações feitas para a branch no repositório remoto. Só envia as alterações que foram commitadas
-`git pull origin <nome-da-branch>` |  Atualiza a branch em questão no seu repositório local com as alterações commitadas na branch remota. Se você já estiver acessando a branch que deseja atualizar, o comando pode ser reduzido a `git pull`
+`git pull origin <nome-da-branch>` ou `git pull` |  Atualiza a branch em questão no seu repositório local com as alterações commitadas na branch remota. Se você já estiver acessando a branch que deseja atualizar
 
 
 #
