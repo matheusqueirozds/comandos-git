@@ -1,6 +1,6 @@
 <div align="center">
   
-# Principais comandos para usar no Git bash
+# Principais comandos para usar no Git
   
 👨🏽‍💻 Guia para devs e divas cansados de pesquisar os comandos no Google.
   
