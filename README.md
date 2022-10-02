@@ -33,7 +33,8 @@
 
  Comando | Descrição 
  --- | :--- 
- `git init` | Cria um repositório vazio com o esqueleto de seu projeto. É o primeiro comando a ser digitado ao se criar um repositório. 
+ `git init` | Transforma o diretório atual em um repositório do Git, possibilitando assim a gravação de revisões do projeto
+ `git init nome-da-pasta` | Cria um repositório do Git vazio na pasta especificada.  
 
 </details>
 
@@ -44,7 +45,23 @@
 
  Comando | Descrição 
  --- | :--- 
- `git clone link-do-repositorio` | Permite que você faça uma cópia das informações de um repositório remoto (do GitHub, por exemplo) para um repositório local (em uma pasta do seu computador).
+ `git clone link-do-repositorio` | Cria uma cópia de um repositório existente.
+
+</details>
+
+---
+
+<details>
+<summary><h2>🏠 Mudanças locais</h2></summary>
+
+ Comando | Descrição 
+ --- | :--- 
+ `git add .` | Adiciona todos os arquivos da pasta onde você se encontra à Staging Area (que é local), preparando todas as alterações. No entanto, esse comando não tem efeito real e significativo no repositório — as alterações não são gravadas mesmo até você executar `git commit`
+ `git add nome-do-arquivo` |	Envia os arquivos modificados para a Staging Area
+ `git status` | Permite que você veja todas as alterações do projeto monitoradas pelo git
+ `git commit -m "mensagem clara explicando a mudança no código"` |	Cria uma versão do seu projeto com os arquivos que estiverem na Staging Area e descreve uma mensagem explicando as modificações realizadas. Em resumo, um commit funciona como tirar uma foto. Importante: não esquecer do comando -m e das aspas ao redor da mensagem 
+ `comme "mensagem clara explicando a mudança no código"` |	É a junção do `git add` com o `git commit`, já adicionando os arquivos a staging area e efetuando um commit
+ `git commit --amend -m "mensagem clara explicando a mudança no código"` | Modifica o último commit. Em vez de criar um novo commit, as mudanças preparadas são adicionadas ao commit anterior.
 
 </details>
 
@@ -65,32 +82,20 @@
 ---
 
 <details>
-<summary><h2>🏠 Mudanças locais</h2></summary>
-
- Comando | Descrição 
- --- | :--- 
- `git status` | Fornece algumas informações sobre a branch em que você estiver no momento, como seu nome, se ela está atualizada em relação à master/main e quais arquivos foram modificados
- `git add .` | Adiciona todos os arquivos da pasta onde você se encontra à Staging Area (que é local)
- `git add nome-do-arquivo` |	Envia os arquivos modificados, removidos e criados para a Staging Area
- `git commit -m "mensagem explicando a mudança no código"` |	Cria uma versão do seu projeto com os arquivos que estiverem na Staging Area e descreve uma mensagem explicando as modificações realizadas. Importante: não esquecer do comando -m e das aspas ao redor da mensagem
- `comme "mensagem explicando a mudança no código"` |	Adiciona os arquivos a staging area e efetua um commit
-
-</details>
-
----
-
-<details>
 <summary><h2>🕸 Branches</h2></summary>
 
- Comando | Descrição 
- --- | :--- 
+ Comando | Descrição
+ --- | :---
 `git branch` | Lista todas as branches no seu repositório local. A branch padrão se chama master ou main
-`git branch <nome-da-branch>` |  Permite criar uma nova branch, com o nome que você escolheu
-`git checkout <nome-da-branch>` ou `gc`  | Permite acessar uma branch que já foi criada (localmente ou remota)
-`git checkout -b <nome-da-branch>` ou `gcb` | Cria uma nova branch e já acessa diretamente
-`git branch -D <nome-da-branch>` | Exclui sua branch 
-`git push origin <nome-da-branch>` | Empurra a branch para o espaço remoto, juntamente com todos os commits e objetos. Também as branches no repositório remoto caso ainda não existam. 
-`pushme` |  Efetua o commit e faz push para o repositório
+`git branch nome-da-branch` |  Permite criar uma nova branch, com o nome que você escolheu
+`git checkout nome-da-branch` | Permite acessar uma branch que já foi criada (localmente ou remota) 
+`gc nome-da-branch` | Faz a mesma coisa que o comando anterior
+`git checkout -b nome-da-branch`  | Cria uma nova branch e já acessa diretamente
+`gcb nome-da-branch` | Faz a mesma coisa que o comando anterior
+`git branch -D nome-da-branch` | Exclui sua branch 
+`git merge` | Mescla as linhas de desenvolvimento. De modo geral, esse comando é usado para combinar alterações feitas em dois branches distintos. Por exemplo, um desenvolvedor faria merge quando quisesse combinar alterações de um branch de recurso no branch principal para implantação.
+`git push origin nome-da-branch` | Empurra a branch para o espaço remoto, juntamente com todos os commits e objetos. Também as branches no repositório remoto caso ainda não existam. 
+`pushme nome-da-branch` |  Efetua o commit e faz push para o repositório
 
 </details>
 
@@ -101,8 +106,10 @@
 
  Comando | Descrição 
  --- | :--- 
-`git push origin <nome-da-branch>` | Envia as suas alterações feitas para a branch no repositório remoto. Só envia as alterações que foram commitadas
-`git pull origin <nome-da-branch>` ou `git pull` |  Atualiza a branch em questão no seu repositório local com as alterações commitadas na branch remota. Se você já estiver acessando a branch que deseja atualizar
+ `git fetch` | Puxa todas as informações de um repositório remoto para seu repositório local, de forma segura, deixando o trabalho atual intacto
+ `git merge` | Atualiza o estado de trabalho do repositório local com as modificações puxadas pelo comando `git fetch`, modificando a branch ativa
+ `git pull` | É a junção dos comandos `git fetch` e  `git merge`, atualizando imediatamente a branch ativa no seu repositório local com as alterações commitadas na branch remota
+`git push | Envia as suas alterações feitas para a branch no repositório remoto. Só envia as alterações que foram commitadas
 
 </details>
 
