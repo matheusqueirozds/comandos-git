@@ -2,7 +2,7 @@
   
 # Principais comandos para usar no Git
   
-👨🏽‍💻 Guia para devs e divas cansados de pesquisar os comandos no Google.
+> 👨🏽‍💻 Guia para devs e divas cansados de pesquisar os comandos no Google.
   
   <img src="https://user-images.githubusercontent.com/70871620/193434684-7d0ac05b-39eb-467e-9fb9-50281d5a756f.gif" height="200px">
   
