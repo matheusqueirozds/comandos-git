@@ -4,7 +4,7 @@
   
 > 👨🏽‍💻 Guia para devs e divas cansados de pesquisar os comandos no Google.
   
-  <img src="https://user-images.githubusercontent.com/70871620/193434684-7d0ac05b-39eb-467e-9fb9-50281d5a756f.gif" height="200px">
+  <img src="https://user-images.githubusercontent.com/70871620/193434684-7d0ac05b-39eb-467e-9fb9-50281d5a756f.gif" height="200px" title="Nas crônicas de água e fogo, eu prefiro, bug por imersão à la dracarys" />
   
 <br>
   
@@ -21,7 +21,7 @@
   
 [Matheus Queiroz](https://github.com/matheusqueirozds) |  
 :-------------------------:|
- <a href="https://github.com/matheusqueirozds"><img src="https://avatars.githubusercontent.com/u/70871620?v=4" width="100px;" alt="Foto do Matheus Queiroz no GitHub"/></a> |
+ <a href="https://github.com/matheusqueirozds"><img src="https://avatars.githubusercontent.com/u/70871620?v=4" width="100px;" alt="Foto do Matheus Queiroz no GitHub" title="Não sou Jason Momoa, mas adoro peixe"/></a> |
   
 </div>
 </details>
