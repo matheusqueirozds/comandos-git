@@ -9,6 +9,8 @@
 <br>
   
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+<p align="center"> Apoie os meus estudos, adquirindo os produtos da minha loja, feita para programadores! <a href="https://montink.com/nobugnogain">Clique aqui</a> para conferir.</p> 
  
 </div>
 
