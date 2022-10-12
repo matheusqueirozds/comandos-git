@@ -118,6 +118,17 @@
 ---
 
 <details>
+<summary><h2>😱 O melhor dos mundos</h2></summary>
+
+ Comando | Descrição 
+ --- | :--- 
+ `git add . && git commit -m "mensagem clara explicando a mudança no código" && git push origin nome-da-branch` | Utliza o "&&" para fazer 3 comandos ao mesmo tempo, adicionando as alterações na staging area, commitando o código e o enviando para o repositório remoto.
+
+</details>
+
+---
+
+<details>
 <summary><h2>🤝🏽 Contribua com esse guia!</h2></summary>
 
 Contribuições são sempre bem-vindas!
